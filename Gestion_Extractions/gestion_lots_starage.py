@@ -34,7 +34,7 @@ TRANSFER_SCRIPT = BASE / "transfer_patients.py"
 FIRST_NEXT_ROW = 40  # First row available to fill NEXT batch (adjust if row 40 was already queued)
 INITIAL_AUDIT_START_ROW = 11
 INITIAL_AUDIT_END_ROW = 40  # Inclusive; checked only once, without changing master order
-BATCH_SIZE = 100
+BATCH_SIZE = 200
 MASTER_COLUMN = "B"  # NIGR in the master workbook (including hidden columns)
 # -----------------------------------------------------------------
 
